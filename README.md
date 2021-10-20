@@ -2,11 +2,14 @@
 
 #### lib 설치
 `$ expo install expo-notifications`
+
 `$ expo install expo-constants`
+
 
 #### Usage
 * 선언 
 `import * as Notifications from 'expo-notifications';`
+
 `import Constants from 'expo-constants';`
 
 * 권한팝업
@@ -71,6 +74,7 @@
 		</View>
 	)
 ```
+
 
 #### 사용 커스텀 방향
 * 회원가입 시 토큰 저장
