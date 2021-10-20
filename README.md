@@ -1,12 +1,12 @@
 # expobare push 알람 구현
 
-#### lib 설치
+### lib 설치
 `$ expo install expo-notifications`
 
 `$ expo install expo-constants`
 
 
-#### Usage
+### Usage
 * 선언 
 
 `import * as Notifications from 'expo-notifications';`
@@ -83,7 +83,7 @@
 
 
 
-#### 사용 커스텀 방향
+### 사용 커스텀 방향
 * 회원가입 시 토큰 저장
 * 저장된 토큰을 AppInit 단계에서 Reducer에 보관
 * 이모지 전송 또는 그룹원 초대시 이미 리스트에 토큰이 있어야함
