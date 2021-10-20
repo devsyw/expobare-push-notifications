@@ -1,4 +1,4 @@
-## expobare push 알람 구현
+# expobare push 알람 구현
 
 #### lib 설치
 `$ expo install expo-notifications`
