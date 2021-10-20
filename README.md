@@ -8,18 +8,23 @@
 
 #### Usage
 * 선언 
+
 `import * as Notifications from 'expo-notifications';`
 
 `import Constants from 'expo-constants';`
 
 * 권한팝업
+
 `const { status } = await Notifications.requestPermissionsAsync();`
 
 * 기존권한
+
 `const { status: existingStatus } = await Notifications.getPermissionsAsync();`
 
 * 나의 notifications 토큰 가져오기
+
 `let token = (await Notifications.getExpoPushTokenAsync()).data;`
+
 
 * 푸시알람보내기
 ```javascript
@@ -44,6 +49,7 @@
 	  });
 	}
 ```
+
 
 * 받은 데이터 가져오기
 ```javascript
@@ -74,6 +80,7 @@
 		</View>
 	)
 ```
+
 
 
 #### 사용 커스텀 방향
