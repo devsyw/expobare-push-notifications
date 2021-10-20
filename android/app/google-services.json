@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739324192945",
+    "project_id": "expo-push-e81f6",
+    "storage_bucket": "expo-push-e81f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739324192945:android:17c9b03d0d2a4f54405a90",
+        "android_client_info": {
+          "package_name": "com.expopush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739324192945-nurhqpn3tskih3ii7hhb881bcdd2034i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApgl8On4jWoM68Xdkpqm-nFVVzebvvwyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739324192945-nurhqpn3tskih3ii7hhb881bcdd2034i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
